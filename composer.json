@@ -29,7 +29,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.2.5|^8.0",
         "spatie/laravel-analytics": "^4.1"
     },
     "require-dev": {
@@ -64,7 +64,5 @@
         "post-autoload-dump": [
             "@php vendor/bin/testbench package:discover --ansi"
         ]
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
