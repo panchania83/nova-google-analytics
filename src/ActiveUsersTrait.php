@@ -1,6 +1,6 @@
 <?php
 
-namespace Tightenco\NovaGoogleAnalytics;
+namespace Panchania83\NovaGoogleAnalytics;
 
 use Carbon\Carbon;
 use Spatie\Analytics\Analytics;

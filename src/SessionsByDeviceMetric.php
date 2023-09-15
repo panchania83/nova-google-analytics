@@ -1,6 +1,6 @@
 <?php
 
-namespace Tightenco\NovaGoogleAnalytics;
+namespace Panchania83\NovaGoogleAnalytics;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Metrics\Partition;

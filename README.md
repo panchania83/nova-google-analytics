@@ -2,16 +2,12 @@
 
 # Google Analytics Integration with Nova
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tightenco/nova-google-analytics.svg?style=flat-square)](https://packagist.org/packages/tightenco/nova-google-analytics)
-[![Total Downloads](https://img.shields.io/packagist/dt/tightenco/nova-google-analytics.svg?style=flat-square)](https://packagist.org/packages/tightenco/nova-google-analytics)
-![Build Status](https://github.com/tighten/nova-google-analytics/actions/workflows/run-tests.yml/badge.svg)
-
 ## Installation
 
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require tightenco/nova-google-analytics
+composer require panchania83/nova-google-analytics
 ```
 
 For now, follow the directions on [Spatie's Laravel Google Analytics package](https://github.com/spatie/laravel-analytics) for getting your credentials, then put them here:
@@ -39,18 +35,18 @@ public function cards()
 {
     return [
         // ...
-        new \Tightenco\NovaGoogleAnalytics\PageViewsMetric,
-        new \Tightenco\NovaGoogleAnalytics\VisitorsMetric,
-        new \Tightenco\NovaGoogleAnalytics\MostVisitedPagesCard,
-        new \Tightenco\NovaGoogleAnalytics\ReferrersList,
-        new \Tightenco\NovaGoogleAnalytics\OneDayActiveUsersMetric,
-        new \Tightenco\NovaGoogleAnalytics\SevenDayActiveUsersMetric,
-        new \Tightenco\NovaGoogleAnalytics\FourteenDayActiveUsersMetric,
-        new \Tightenco\NovaGoogleAnalytics\TwentyEightDayActiveUsersMetric,
-        new \Tightenco\NovaGoogleAnalytics\SessionsMetric,
-        new \Tightenco\NovaGoogleAnalytics\SessionDurationMetric,
-        new \Tightenco\NovaGoogleAnalytics\SessionsByDeviceMetric,
-        new \Tightenco\NovaGoogleAnalytics\SessionsByCountryMetric,
+        new \Panchania83\NovaGoogleAnalytics\PageViewsMetric,
+        new \Panchania83\NovaGoogleAnalytics\VisitorsMetric,
+        new \Panchania83\NovaGoogleAnalytics\MostVisitedPagesCard,
+        new \Panchania83\NovaGoogleAnalytics\ReferrersList,
+        new \Panchania83\NovaGoogleAnalytics\OneDayActiveUsersMetric,
+        new \Panchania83\NovaGoogleAnalytics\SevenDayActiveUsersMetric,
+        new \Panchania83\NovaGoogleAnalytics\FourteenDayActiveUsersMetric,
+        new \Panchania83\NovaGoogleAnalytics\TwentyEightDayActiveUsersMetric,
+        new \Panchania83\NovaGoogleAnalytics\SessionsMetric,
+        new \Panchania83\NovaGoogleAnalytics\SessionDurationMetric,
+        new \Panchania83\NovaGoogleAnalytics\SessionsByDeviceMetric,
+        new \Panchania83\NovaGoogleAnalytics\SessionsByCountryMetric,
     ];
 }
 ```

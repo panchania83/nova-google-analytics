@@ -1,6 +1,6 @@
 <?php
 
-namespace Tightenco\NovaGoogleAnalytics\Http\Controllers;
+namespace Panchania83\NovaGoogleAnalytics\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

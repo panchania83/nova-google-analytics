@@ -1,12 +1,12 @@
 <?php
 
-namespace Tightenco\NovaGoogleAnalytics;
+namespace Panchania83\NovaGoogleAnalytics;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
-use Tightenco\NovaGoogleAnalytics\Http\Middleware\Authorize;
+use Panchania83\NovaGoogleAnalytics\Http\Middleware\Authorize;
 
 class ToolServiceProvider extends ServiceProvider
 {
@@ -36,7 +36,7 @@ class ToolServiceProvider extends ServiceProvider
             ->group(__DIR__ . '/../routes/inertia.php');
 
         Route::middleware(['nova', Authorize::class])
-            ->prefix('nova-vendor/tightenco/nova-google-analytics')
+            ->prefix('nova-vendor/panchania83/nova-google-analytics')
             ->group(__DIR__ . '/../routes/api.php');
     }
 }

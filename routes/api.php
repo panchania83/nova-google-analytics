@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Tightenco\NovaGoogleAnalytics\Http\Controllers\GoogleAnalyticsController;
-use Tightenco\NovaGoogleAnalytics\Http\Controllers\MostVisitedPagesController;
-use Tightenco\NovaGoogleAnalytics\Http\Controllers\ReferrerListController;
+use Panchania83\NovaGoogleAnalytics\Http\Controllers\GoogleAnalyticsController;
+use Panchania83\NovaGoogleAnalytics\Http\Controllers\MostVisitedPagesController;
+use Panchania83\NovaGoogleAnalytics\Http\Controllers\ReferrerListController;
 
 /*
 |--------------------------------------------------------------------------
