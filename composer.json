@@ -1,5 +1,5 @@
 {
-    "name": "tightenco/nova-google-analytics",
+    "name": "panchania83/nova-google-analytics",
     "description": "Google Analytics integration with Nova",
     "keywords": [
         "laravel",
@@ -14,7 +14,7 @@
             "url": "https://nova.laravel.com"
         }
     ],
-    "homepage": "https://github.com/tightenco/nova-google-analytics",
+    "homepage": "https://github.com/panchania83/nova-google-analytics",
     "license": "MIT",
     "authors": [
         {
@@ -29,11 +29,11 @@
         }
     ],
     "require": {
-        "php": "^8.0|^8.1",
+        "php": "^7.4",
         "spatie/laravel-analytics": "^4.1"
     },
     "require-dev": {
-        "laravel/nova": "^4.0",
+       "laravel/nova": "*",
         "orchestra/testbench": "^7.0",
         "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "^3.5",
